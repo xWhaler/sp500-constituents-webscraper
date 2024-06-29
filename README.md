@@ -30,6 +30,9 @@ This Node.js application scrapes data from a Wikipedia page listing S&P 500 comp
    ```
    GET http://localhost:8000/sp500-stocks
    ```
+   <b>From Terminal: </b>
+      ~ curl GET http://localhost:8000/sp500-stocks
+   '''
 
    This endpoint returns a JSON object containing an array of S&P 500 company names and ticker symbols.
 
